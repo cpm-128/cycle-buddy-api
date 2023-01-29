@@ -13,6 +13,11 @@
 }
 
 body {
-    color: red;
     font-family: var(--paragraph-font);
+}
+
+header {
+    padding: 20px 35px;
+    background-color: var(--primary-color);
+    border-radius: var(--border-radius) var(--border-radius) 0 0;
 }
