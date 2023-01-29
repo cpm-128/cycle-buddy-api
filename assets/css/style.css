@@ -1,4 +1,18 @@
+:root {
+    --primary-color: rgb(32,85,107);
+    --primary-color-transp: rgba(32,85,107,0.9);
+    --secondary-color: rgb(195,193,186);
+    --tertiary-color: rgb(178,199,198);
+    --light-color: #ffffff;
+    --dark-color: #000000;
+    --border-radius: 4px;
+    --heading-font: 'Josefin Sans', sans-serif;
+    --heading-font-weight: 600;
+    --paragraph-font: 'Josefin Sans', sans-serif;
+    --light-font-weight: 300;
+}
+
 body {
     color: red;
-    font-family: 'Josefin Sans', sans-serif;
+    font-family: var(--paragraph-font);
 }
