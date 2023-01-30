@@ -56,3 +56,25 @@ header nav ul li a {
     font-weight: var(--light-font-weight);
     font-size: 18px;
 }
+
+footer {
+    background-color: var(--primary-color);
+    text-align: center;
+    padding: 15px;
+    color: var(--light-color);
+}
+
+.social-icon {
+    display: inline;
+    margin: 15px;
+}
+
+.social-icon img:hover {
+    background-color: var(--secondary-color);
+    border-radius: 50px;
+}
+
+.copyright {
+    margin-top: 10px;
+    font-weight: var(--light-font-weight);
+}
