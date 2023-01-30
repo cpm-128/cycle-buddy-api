@@ -23,6 +23,10 @@ body {
     font-family: var(--paragraph-font);
 }
 
+section {
+    padding: 60px;
+}
+
 header {
     padding: 20px 35px;
     background-color: var(--primary-color);
@@ -56,6 +60,15 @@ header nav ul li a {
     margin: 0 30px;
     font-weight: var(--light-font-weight);
     font-size: 18px;
+}
+
+.hero {
+    background-image: url("../images/colleen-maher_cycling.jpg");
+    height: 600px;
+    /* size of the actual image */
+    background-size: cover;
+    /* position of image in the .hero */
+    background-position: center;
 }
 
 footer {
