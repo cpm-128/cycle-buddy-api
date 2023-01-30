@@ -39,22 +39,23 @@
 
         <!-- HERO -->
         <section class="hero">
-            <div>
+            <div id="hero-form">
                 <h3>Get Started Today</h3>
                 <p>Fill out this form and one of our coaches will reach out to schedule a call with you.</p>
                 <form>
                     <!-- name -->
                         <label for="name">Enter full name:</label>
-                        <input type="text" placeholder="Your Name" name="name" id="name" />
+                        <input type="text" placeholder="Your Name" name="name" id="name" class="form-input" />
                     <!-- email -->
                         <label for="email">Enter email address:</label>
-                        <input type="email" placeholder="Email Address" name="email" id="email" />
+                        <input type="email" placeholder="Email Address" name="email" id="email" class="form-input" />
                     <!-- phone -->
                         <label for="phone">Enter phone number:</label>
-                        <input type="tel" placeholder="Phone Number" name="phone" id="phone" />
+                        <input type="tel" placeholder="Phone Number" name="phone" id="phone" class="form-input" />
                     <!-- discipline -->
                         <label for="discipline">Choose your discipline:</label>
-                        <select id="discipline" name="discipline">
+                        <select id="discipline" name="discipline" class="form-input">
+                            <option value="" selected disabled hidden></option>
                             <option value="road">Road</option>
                             <option value="mountain">Mountain</option>
                             <option value="gravel">Gravel</option>
