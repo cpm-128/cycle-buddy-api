@@ -2,6 +2,7 @@
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 /* branding */
 :root {
@@ -62,6 +63,7 @@ footer {
     text-align: center;
     padding: 15px;
     color: var(--light-color);
+    float: bottom;
 }
 
 .social-icon {
