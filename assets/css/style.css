@@ -1,3 +1,9 @@
+/* remove browser enforced styles */
+* {
+    margin: 0;
+    padding: 0;
+}
+/* branding */
 :root {
     --primary-color: rgb(32,85,107);
     --primary-color-transp: rgba(32,85,107,0.9);
@@ -19,16 +25,34 @@ body {
 header {
     padding: 20px 35px;
     background-color: var(--primary-color);
-    border-radius: var(--border-radius) var(--border-radius) 0 0;
 }
 
 header h1 {
     font-weight: var(--heading-font-weight);
-    font-size: 36px;
+    font-size: 24px;
     color: var(--light-color);
     margin: 0;
+    /* change the li from a list to a row to only take up the space needed */
+    display: inline;
 }
 
 header a {
     color: var(--light-color);
+    text-decoration: none;
+}
+
+header nav {
+    float: right;
+    margin: 7px 0;
+}
+
+header nav ul li {
+    /* change the li from a list to a row to only take up the space needed */
+    display: inline;
+}
+
+header nav ul li a {
+    margin: 0 30px;
+    font-weight: var(--light-font-weight);
+    font-size: 18px;
 }
