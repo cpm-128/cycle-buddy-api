@@ -21,3 +21,14 @@ header {
     background-color: var(--primary-color);
     border-radius: var(--border-radius) var(--border-radius) 0 0;
 }
+
+header h1 {
+    font-weight: var(--heading-font-weight);
+    font-size: 36px;
+    color: var(--light-color);
+    margin: 0;
+}
+
+header a {
+    color: var(--light-color);
+}
