@@ -119,6 +119,65 @@ header nav ul li a {
     font-size: 1em;
 }
 
+.section-title {
+    font-size: 2em;
+    margin-bottom: 35px;
+    padding: 0 100px 20px 100px;
+    display: inline-block;
+    border-bottom: 3px solid;
+    color: var(--primary-color);
+}
+
+.primary-border {
+    border-color: var(--secondary-color);
+}
+
+#coaches {
+    text-align: center;
+}
+
+.coach {
+    width: 900px;
+    margin: 0 auto 30px auto;
+    background: var(--tertiary-color);
+    overflow: auto;
+}
+
+.coach img {
+    width: 35%;
+    float: left;
+}
+
+.coach-bio {
+    padding: 35px;
+    float: left;
+    width: 65%;
+}
+
+.coach-bio h3 {
+    font-size: 1.5em;
+    margin-bottom: 8px;
+    text-shadow: 2px 2px 3px var(--light-color);
+}
+
+.coach-bio h4 {
+    font-weight: var(--light-font-weight);
+    font-size: 1.2em;
+    margin-bottom: 25px;
+}
+
+.coach-bio p {
+    line-height: 1.3;
+}
+
+.text-left {
+    text-align: left;
+}
+
+.text-right {
+    text-align: right;
+}
+
 footer {
     background-color: var(--primary-color);
     text-align: center;
